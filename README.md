@@ -31,7 +31,7 @@ This is the reference implementation for Harnessed [Apache Camel](http://camel.a
 
 * __./docker/test__ is where the docker file and scripts that facilitate local testing live. For example, if you are writing a camel service that works with a kafka queue, you would use the contents of this directory to spin up whatever external dependencies your service requires to work. An example of how to fire up multiple services in a controlled way (Zookeeper + Kafka) is provided. 
 
-* __com.davidholiday.camel.harness.service...__
+* __com.davidholiday.camel.harness...__
     * __beans__ is where your java [beans](https://stackoverflow.com/questions/3295496/what-is-a-javabean-exactly#3295517) will go.
     
     * __config__ is where you will load config properties. It uses a helper from Harness that allows us to easily look for properties in multiple locations. The default behaviour of [Archaius](https://github.com/Netflix/archaius) is to look for properties in ```./src/main/resources/config.properties```. By convention, properties defined in the local ```config.properties``` file should end with a *.local tag to differentiate them from analogue properties loaded from either the config-sidecar or another source. The loader will try to get properties from the first source and, failing that, will look to the second source. This way the service will always automagickally load with the appropriate set of properties. 
@@ -46,7 +46,7 @@ This is the reference implementation for Harnessed [Apache Camel](http://camel.a
     
     * __util__ is fairly self-explanatory. Provided is ```ConnectionStringFactory``` which provides a single-source-of-truth for any connection strings used by RouteBuilders to resolve where traffic should be routed. 
     
-* __com.davidholiday.camel.harness.service.test...__
+* __com.davidholiday.camel.harness.test...__
     * __beans__ where bean tests can be found.
     
     * __PrePostTestProcessors__ harnessed processors and routebuilders may plug into test harnesses that provide pre-made test routes that have nodes for pre and post test processors. The processors used to plug into those nodes are located here. 
@@ -56,8 +56,6 @@ This is the reference implementation for Harnessed [Apache Camel](http://camel.a
     * __routebuilders__ where the routebuilder tests can be found. 
   
 * __./src/main/resources/__ is where the default ```config.properties``` and mock files for the app live. 
-        
-* __./Jenkinsfile__ this file should not be messed with unless you're certain you know what you're doing. It hooks into some automagick stuff devops has set up that allows this project to be built/tested/deployed by jenkins. 
 
 
 ### how do I...
