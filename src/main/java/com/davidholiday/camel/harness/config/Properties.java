@@ -1,12 +1,12 @@
 /*
 Copyright 2019 Charter Communications, All Rights Reserved
  */
-package com.davidholiday.camel.service.config;
+package com.davidholiday.camel.harness.config;
 
 
 import com.netflix.config.DynamicStringProperty;
 
-import static net.charter.camel.harness.helpers.DynamicPropertyHelpers.getOrGetDynamicStringProperty;
+import static com.davidholiday.camel.harness.helpers.DynamicPropertyHelpers.getOrGetDynamicStringProperty;
 
 
 /**
@@ -27,13 +27,13 @@ public class Properties {
     // to external services
     public static final DynamicStringProperty SAMPLE_GET_SERVICE_SOURCE_PROPERTY =
             getOrGetDynamicStringProperty(
-                    "sample.get.service.source",
+                    "sample.get.harness.source",
                     "sample.get.service.source.local"
             );
 
     public static final DynamicStringProperty SAMPLE_GET_SERVICE_RESPONSE_MOCKFILE_PROPERTY =
             getOrGetDynamicStringProperty(
-                    "sample.get.service.response.mockfile",
+                    "sample.get.harness.response.mockfile",
                     "sample.get.service.response.mockfile.local"
             );
 

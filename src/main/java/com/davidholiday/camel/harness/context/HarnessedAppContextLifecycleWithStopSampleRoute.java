@@ -1,17 +1,17 @@
 /*
 Copyright 2019 Charter Communications, All Rights Reserved
  */
-package com.davidholiday.camel.service.context;
+package com.davidholiday.camel.harness.context;
 
 
-import com.davidholiday.camel.service.routebuilders.HarnessedSampleGetServiceResponseRouteBuilder;
+import com.davidholiday.camel.harness.routebuilders.HarnessedSampleGetServiceResponseRouteBuilder;
 
 import org.apache.camel.component.servletlistener.ServletCamelContext;
 
 import org.apache.camel.impl.JndiRegistry;
 
-import net.charter.camel.harness.context.AppContextLifecycleFunctionInterface;
-import net.charter.camel.harness.context.AppContextLifecycleHarness;
+import com.davidholiday.camel.harness.context.AppContextLifecycleFunctionInterface;
+import com.davidholiday.camel.harness.context.AppContextLifecycleHarness;
 
 import java.util.HashMap;
 import java.util.Map;

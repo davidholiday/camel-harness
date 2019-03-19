@@ -1,10 +1,7 @@
-/*
-Copyright 2019 Charter Communications, All Rights Reserved
- */
-package com.davidholiday.camel.service.test.beans;
+package com.davidholiday.camel.harness.test.beans;
 
 
-import com.davidholiday.camel.service.beans.HealthCheckBean;
+import com.davidholiday.camel.harness.beans.HealthCheckBean;
 
 import org.junit.Assert;
 import org.junit.Test;

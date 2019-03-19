@@ -1,11 +1,8 @@
-/*
-Copyright 2019 Charter Communications, All Rights Reserved
- */
-package com.davidholiday.camel.service.routebuilders;
+package com.davidholiday.camel.harness.routebuilders;
 
 
-import com.davidholiday.camel.service.util.ConnectionStringFactory;
-import net.charter.camel.harness.routing.RouteBuilderHarness;
+import com.davidholiday.camel.harness.util.ConnectionStringFactory;
+import com.davidholiday.camel.harness.routing.RouteBuilderHarness;
 
 
 /**

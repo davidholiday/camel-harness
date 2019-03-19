@@ -1,16 +1,13 @@
-/*
-Copyright 2019 Charter Communications, All Rights Reserved
- */
-package com.davidholiday.camel.service.test.routebuilders;
+package com.davidholiday.camel.harness.test.routebuilders;
 
 
-import com.davidholiday.camel.service.context.HarnessedAppContextLifecycleWithStopSampleRoute;
-import com.davidholiday.camel.service.routebuilders.HarnessedHealthCheckRouteBuilder;
-import com.davidholiday.camel.service.test.PrePostTestProcessors.HttpHeaderValidationProcessor;
+import com.davidholiday.camel.harness.context.HarnessedAppContextLifecycleWithStopSampleRoute;
+import com.davidholiday.camel.harness.routebuilders.HarnessedHealthCheckRouteBuilder;
+import com.davidholiday.camel.harness.test.PrePostTestProcessors.HttpHeaderValidationProcessor;
 
-import net.charter.camel.harness.context.AppContextLifecycleHarness;
-import net.charter.camel.harness.routing.RouteBuilderHarness;
-import net.charter.camel.harness.testing.HarnessedRouteBuilderTestHarness;
+import com.davidholiday.camel.harness.context.AppContextLifecycleHarness;
+import com.davidholiday.camel.harness.routing.RouteBuilderHarness;
+import com.davidholiday.camel.harness.testing.HarnessedRouteBuilderTestHarness;
 
 import org.apache.camel.Processor;
 

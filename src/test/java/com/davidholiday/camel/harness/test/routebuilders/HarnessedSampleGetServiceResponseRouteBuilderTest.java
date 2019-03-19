@@ -1,21 +1,18 @@
-/*
-Copyright 2019 Charter Communications, All Rights Reserved
- */
-package com.davidholiday.camel.service.test.routebuilders;
+package com.davidholiday.camel.harness.test.routebuilders;
 
 
-import com.davidholiday.camel.service.context.HarnessedAppContextLifecycleWithStopSampleRoute;
-import com.davidholiday.camel.service.routebuilders.HarnessedSampleGetServiceResponseRouteBuilder;
+import com.davidholiday.camel.harness.context.HarnessedAppContextLifecycleWithStopSampleRoute;
+import com.davidholiday.camel.harness.routebuilders.HarnessedSampleGetServiceResponseRouteBuilder;
 import com.google.gson.Gson;
 
-import com.davidholiday.camel.service.test.PrePostTestProcessors.JsonStringToMapProcessor;
+import com.davidholiday.camel.harness.test.PrePostTestProcessors.JsonStringToMapProcessor;
 
 
-import net.charter.camel.harness.context.AppContextLifecycleHarness;
+import com.davidholiday.camel.harness.context.AppContextLifecycleHarness;
 
-import net.charter.camel.harness.routing.RouteBuilderHarness;
+import com.davidholiday.camel.harness.routing.RouteBuilderHarness;
 
-import net.charter.camel.harness.testing.HarnessedRouteBuilderTestHarness;
+import com.davidholiday.camel.harness.testing.HarnessedRouteBuilderTestHarness;
 
 
 import org.apache.camel.Processor;

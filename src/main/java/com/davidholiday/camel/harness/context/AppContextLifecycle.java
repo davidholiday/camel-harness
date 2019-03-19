@@ -1,10 +1,10 @@
 /*
 Copyright 2019 Charter Communications, All Rights Reserved
  */
-package com.davidholiday.camel.service.context;
+package com.davidholiday.camel.harness.context;
 
 
-import com.davidholiday.camel.service.processors.SampleGetServiceResponseMockProcessor;
+import com.davidholiday.camel.harness.processors.SampleGetServiceResponseMockProcessor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,11 +16,11 @@ import org.apache.camel.component.servletlistener.ServletCamelContext;
 import com.netflix.config.ConfigurationManager;
 import com.netflix.config.DynamicURLConfiguration;
 
-import com.davidholiday.camel.service.beans.HealthCheckBean;
+import com.davidholiday.camel.harness.beans.HealthCheckBean;
 
-import com.davidholiday.camel.service.config.Properties;
+import com.davidholiday.camel.harness.config.Properties;
 
-import static com.davidholiday.camel.service.config.Properties.ADDITIONAL_PROPERTY_SOURCE_URLS_PROPERTY;
+import static com.davidholiday.camel.harness.config.Properties.ADDITIONAL_PROPERTY_SOURCE_URLS_PROPERTY;
 
 
 /**
@@ -126,7 +126,7 @@ public class AppContextLifecycle implements CamelContextLifecycle<JndiRegistry> 
 
         /*
         add listener(s) for specific property changes so that we can restart the impacted route(s). otherwise they
-        won't pick up the changes and we'd have to restart the entire camel service.
+        won't pick up the changes and we'd have to restart the entire camel harness.
          */
 
         // ConfigurationChangeListener myConfigurationChangeListener = new ConfigurationChangeListener(...)

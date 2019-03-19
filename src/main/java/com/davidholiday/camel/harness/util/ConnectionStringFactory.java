@@ -1,10 +1,7 @@
-/*
-Copyright 2019 Charter Communications, All Rights Reserved
- */
-package com.davidholiday.camel.service.util;
+package com.davidholiday.camel.harness.util;
 
 
-import com.davidholiday.camel.service.config.Properties;
+import com.davidholiday.camel.harness.config.Properties;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,10 +1,7 @@
-/*
-Copyright 2019 Charter Communications, All Rights Reserved
- */
-package com.davidholiday.camel.service.processors;
+package com.davidholiday.camel.harness.processors;
 
 
-import net.charter.camel.harness.helpers.MockFileHelpers;
+import com.davidholiday.camel.harness.helpers.MockFileHelpers;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
@@ -16,7 +13,7 @@ import java.io.IOException;
 
 
 /**
- * processor that demonstrates how to inject a service response into the exchange
+ * processor that demonstrates how to inject a harness response into the exchange
  */
 public class SampleGetServiceResponseMockProcessor implements Processor {
 

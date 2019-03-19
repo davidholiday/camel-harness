@@ -1,14 +1,11 @@
-/*
-Copyright 2019 Charter Communications, All Rights Reserved
- */
-package com.davidholiday.camel.service.routebuilders;
+package com.davidholiday.camel.harness.routebuilders;
 
 
 import org.apache.camel.Exchange;
 
-import net.charter.camel.harness.routing.RouteBuilderHarness;
+import com.davidholiday.camel.harness.routing.RouteBuilderHarness;
 
-import static com.davidholiday.camel.service.context.AppContextLifecycle.HEALTH_CHECK_BEAN_NAME;
+import static com.davidholiday.camel.harness.context.AppContextLifecycle.HEALTH_CHECK_BEAN_NAME;
 
 
 /**

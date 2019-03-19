@@ -1,7 +1,7 @@
 /*
 Copyright 2019 Charter Communications, All Rights Reserved
  */
-package com.davidholiday.camel.service.beans;
+package com.davidholiday.camel.harness.beans;
 
 
 import java.io.Serializable;

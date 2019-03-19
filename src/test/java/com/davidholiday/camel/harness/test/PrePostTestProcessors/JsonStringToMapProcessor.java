@@ -1,7 +1,4 @@
-/*
-Copyright 2019 Charter Communications, All Rights Reserved
- */
-package com.davidholiday.camel.service.test.PrePostTestProcessors;
+package com.davidholiday.camel.harness.test.PrePostTestProcessors;
 
 
 import com.google.gson.Gson;

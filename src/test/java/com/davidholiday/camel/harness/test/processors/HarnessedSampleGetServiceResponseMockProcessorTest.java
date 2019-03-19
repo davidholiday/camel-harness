@@ -1,16 +1,13 @@
-/*
-Copyright 2019 Charter Communications, All Rights Reserved
- */
-package com.davidholiday.camel.service.test.processors;
+package com.davidholiday.camel.harness.test.processors;
 
 
-import com.davidholiday.camel.service.context.AppContextLifecycle;
-import com.davidholiday.camel.service.context.HarnessedAppContextLifecycleWithStopSampleRoute;
+import com.davidholiday.camel.harness.context.AppContextLifecycle;
+import com.davidholiday.camel.harness.context.HarnessedAppContextLifecycleWithStopSampleRoute;
 
-import com.davidholiday.camel.service.processors.SampleGetServiceResponseMockProcessor;
+import com.davidholiday.camel.harness.processors.SampleGetServiceResponseMockProcessor;
 
-import net.charter.camel.harness.helpers.MockFileHelpers;
-import net.charter.camel.harness.testing.ProcessorTestHarness;
+import com.davidholiday.camel.harness.helpers.MockFileHelpers;
+import com.davidholiday.camel.harness.testing.ProcessorTestHarness;
 
 import org.apache.camel.Processor;
 
