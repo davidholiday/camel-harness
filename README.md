@@ -44,7 +44,7 @@ This is the reference implementation for Harnessed [Apache Camel](http://camel.a
     
     * __routebuilders__ is where your camel [routebuilders](http://camel.apache.org/routebuilder.html) are stored. It is strongly encouraged developers harness their routebuilders in order to facilitate testing and dynamic behavior.
     
-    * __util__ is fairly self-explanatory. Provided is ```ConnectionStringFactory``` which provides a single-source-of-truth for any connection strings used by RouteBuilders to resolve where traffic should be routed. 
+    * __util__ is fairly self-explanatory. Provided is ```ConnectionStringFactory``` which is a single-source-of-truth for any connection strings used by RouteBuilders to resolve where traffic should be routed. 
     
 * __com.davidholiday.camel.harness.test...__
     * __beans__ where bean tests can be found.
