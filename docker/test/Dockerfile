@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-LABEL maintainer="c-david.holiday@charter.com"
+LABEL maintainer="your.name@youremail.com"
 
 # copy the helper scripts from the root 'Dockerfile' into docker context
 COPY . /
