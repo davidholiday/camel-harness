@@ -66,7 +66,7 @@ This is the reference implementation for Harnessed [Apache Camel](http://camel.a
 
 * __override app behavior based on runtime context?__
 
-    * this is what the AppContextLifecycle Harness is for. See ```com.davidholiday.camel.harness.context.HarnessedAppContextLifecycle``` for example. Note that this will completely override the default behaviour of the base AppContextLifecycle object. 
+    * this is what the AppContextLifecycle Harness is for. In a nutshell, you'll write a method that overrides one of the default AppContextLifecycle stage methods. See ```com.davidholiday.camel.harness.context.HarnessedAppContextLifecycle``` for example. 
 
 * __have the service use a mock in some runtime contexts but not in others?__
 
