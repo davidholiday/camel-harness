@@ -76,7 +76,7 @@
     </dependency>
 
     <!-- for dynamic configuration resolution -->
-    <!-- purposefully not using archaius2 as I don't know if it will play nice with the rest of the ecosystem -->
+    <!-- TODO look into updating to archaius2 -->
     <dependency>
       <groupId>com.netflix.archaius</groupId>
       <artifactId>archaius-core</artifactId>
