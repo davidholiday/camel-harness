@@ -1,6 +1,3 @@
-/*
-Copyright 2019 Charter Communications, All Rights Reserved
- */
 package com.davidholiday.camel.harness.context;
 
 
