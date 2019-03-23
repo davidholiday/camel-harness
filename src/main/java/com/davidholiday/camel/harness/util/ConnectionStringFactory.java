@@ -14,11 +14,7 @@ import java.util.Optional;
  * where to route traffic from/to the app (intra-app traffic is handled differently as all harnessed routebuilders
  * conform to a standard layout and naming convention).
  *
- * in cases where the connection string in question is used by a component registered with jndi, make sure to key the
- * factory to the names used to register beans so other parts of the app (like ConfigurationChangeListeners)
- * have an easy way to work with both the bean POJOs and the connection strings employed by routes to make use of them.
- *
- * the connection string for mock/RESTful calls usually can be pulled directly from the properties object directly. in
+ * the connection string for mock/RESTful calls usually can be pulled directly from the Properties object directly. in
  * cases where the connection string is for a component (say to allow the route to read/write from kafka) the connection
  * string needs to be assembled from a set of properties (host, port, etc...). that dynamic assembly also happens
  * here in one of the case blocks.

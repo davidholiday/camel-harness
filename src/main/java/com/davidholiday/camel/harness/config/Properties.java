@@ -1,6 +1,3 @@
-/*
-Copyright 2019 Charter Communications, All Rights Reserved
- */
 package com.davidholiday.camel.harness.config;
 
 
@@ -27,13 +24,13 @@ public class Properties {
     // to external services
     public static final DynamicStringProperty SAMPLE_GET_SERVICE_SOURCE_PROPERTY =
             getOrGetDynamicStringProperty(
-                    "sample.get.harness.source",
+                    "sample.get.service.source",
                     "sample.get.service.source.local"
             );
 
     public static final DynamicStringProperty SAMPLE_GET_SERVICE_RESPONSE_MOCKFILE_PROPERTY =
             getOrGetDynamicStringProperty(
-                    "sample.get.harness.response.mockfile",
+                    "sample.get.service.response.mockfile",
                     "sample.get.service.response.mockfile.local"
             );
 
