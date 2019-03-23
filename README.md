@@ -12,9 +12,7 @@ This is the reference implementation for Harnessed [Apache Camel](http://camel.a
 
 * Once you clone the repo, you're going to need to make a few changes to the pom file. 
     * Change the ```artifactId``` field to match the name of the new service.
-    
-    * Change the ```developerConnection``` field to match the url of the git repository for the new service.
-    
+        
     * Change the ```warName``` field to match the name of the new service.
     
     * Ensure the ```source``` and ```target``` versions identified in the ```maven-compiler-plugin``` matches the version of jdk you're using.
