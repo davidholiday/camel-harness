@@ -1,6 +1,8 @@
 # CAMEL-HARNESS
 
 
+# this project is archived and no longer maintained. the successor project, kcar, can be found [here](https://github.com/davidholiday/kcar)
+
 ### what is this? 
 
 This is the reference implementation for Harnessed [Apache Camel](http://camel.apache.org/) microservices. Harness is a featherweight microservices framework that allows you to "Harness" your Camel ride in various was to make building/testing/managing Camel services easier (see link to the Harness repository for more details on what Harness can do for you). The source code for the core Harness library can be found [here](https://github.com/davidholiday/camel-harness-lib).  __Use this template as the starting point when greenfielding a new Camel microservice.__
